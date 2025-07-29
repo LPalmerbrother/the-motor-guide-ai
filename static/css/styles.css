@@ -1,0 +1,30 @@
+body {
+  background: #1a1a1a;
+  color: #eee;
+  font-family: sans-serif;
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.chat-container {
+  background: #222;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  max-width: 90%;
+}
+#chat-log {
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  background: #111;
+  padding: 10px;
+  border-radius: 4px;
+}
+.message { margin: 8px 0; }
+.user { color: #f55; }
+.bot  { color: #5af; }
+#question { width: calc(100% - 70px); padding: 8px; }
+#send     { width: 60px; }
